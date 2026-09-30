@@ -1,0 +1,7 @@
+-r requirements.txt
+tensorflow>=2.16,<2.20
+matplotlib>=3.8,<4
+opencv-python>=4.9,<5
+scikit-learn>=1.4,<2
+tqdm>=4.66,<5
+jupyterlab>=4,<5

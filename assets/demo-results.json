@@ -1,0 +1,41 @@
+{
+  "source": "synthetic illustration; not the paper evaluation dataset",
+  "seed": 42,
+  "n": 128,
+  "k": 72,
+  "mask_radius": 60,
+  "calibration": "matched",
+  "clean_fft_threshold": 34.46871566772461,
+  "ann_threshold": 21.545188903808594,
+  "ann_operations_per_1d_call": {
+    "additions": 18232,
+    "multiplications": 18432
+  },
+  "reduction_against_untrimmed_ann_percent": 43.83578431372549,
+  "results": [
+    {
+      "image": "clean",
+      "fft_score": 34.46871566772461,
+      "ann_score": 21.545188903808594,
+      "fft_blurry": false,
+      "ann_blurry": false,
+      "ann_blurry_with_fft_threshold": true
+    },
+    {
+      "image": "defocus",
+      "fft_score": -46.769927978515625,
+      "ann_score": -54.3527717590332,
+      "fft_blurry": true,
+      "ann_blurry": true,
+      "ann_blurry_with_fft_threshold": true
+    },
+    {
+      "image": "motion",
+      "fft_score": -1.380794644355774,
+      "ann_score": -13.536967277526855,
+      "fft_blurry": true,
+      "ann_blurry": true,
+      "ann_blurry_with_fft_threshold": true
+    }
+  ]
+}

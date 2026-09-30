@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the paper when referring to this research."
+title: "Neural FFT Approximation for Image Blur Detection"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Xinghao
+repository-code: "https://github.com/Russwang/approximate-blur-detection"
+preferred-citation:
+  type: conference-paper
+  title: "Universal Approximated Real-Valued Fast Fourier Transform for Image Blur Detection"
+  authors:
+    - family-names: Wang
+      given-names: Xinghao
+    - family-names: Bai
+      given-names: Lu
+    - family-names: Gu
+      given-names: Chongyan
+    - family-names: Wu
+      given-names: Yun
+  doi: 10.1109/ISSC67739.2025.11291523
+  year: 2025
